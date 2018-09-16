@@ -1,0 +1,36 @@
+{
+  "name": "ssr",
+  "version": "1.0.0",
+  "description": "This repo was created to store what i did during the React: Server-Side Rendering course in Linkedin Learning",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joaotonial/ssr.git"
+  },
+  "author": "Joao Tonial",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaotonial/ssr/issues"
+  },
+  "homepage": "https://github.com/joaotonial/ssr#readme",
+  "dependencies": {
+    "@zeit/next-css": "^0.2.0",
+    "eslint-plugin-react": "^7.11.1",
+    "next": "^6.1.2",
+    "next-redux-wrapper": "^2.0.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0"
+  }
+}
